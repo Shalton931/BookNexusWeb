@@ -1,0 +1,14 @@
+C:\Informatics_GP\back.end\NexusService\NexusService\bin\NexusService.dll.config
+C:\Informatics_GP\back.end\NexusService\NexusService\bin\NexusService.dll
+C:\Informatics_GP\back.end\NexusService\NexusService\bin\NexusService.pdb
+C:\Informatics_GP\back.end\NexusService\NexusService\obj\Debug\NexusService.csproj.AssemblyReference.cache
+C:\Informatics_GP\back.end\NexusService\NexusService\obj\Debug\NexusService.csproj.CoreCompileInputs.cache
+C:\Informatics_GP\back.end\NexusService\NexusService\obj\Debug\NexusService.dll
+C:\Informatics_GP\back.end\NexusService\NexusService\obj\Debug\NexusService.pdb
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\bin\NexusService.dll.config
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\bin\NexusService.dll
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\bin\NexusService.pdb
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\obj\Debug\NexusService.csproj.AssemblyReference.cache
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\obj\Debug\NexusService.csproj.CoreCompileInputs.cache
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\obj\Debug\NexusService.dll
+C:\Users\ishes\OneDrive\Desktop\NexusService\NexusService\obj\Debug\NexusService.pdb
