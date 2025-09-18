@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="BookNexusWebsite.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Book Nexus</title>
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <header>
+            <h1>Book Nexus</h1>
+            <p><em><u>Where your reading experience is elevated</u></em></p>
+            <asp:Label ID="lblWelcome" runat="server" CssClass="welcome-message" Visible="false"></asp:Label>
+        </header>
+        <nav>
+            <ul>
+                <li id="homeID" runat="server">
+                    <a href="Home.aspx">Home</a>
+                </li>
+
+                <li id="loginID" runat="server">
+                    <a href="Login.aspx">Login</a>
+                </li>
+
+                <li id="registerID" runat="server">
+                    <a href="Register.aspx">Register</a>
+                </li>
+
+                <li id="logoutID" runat="server" visible="false">
+                    <a href="Logout.aspx">Logout</a>
+                </li>
+
+                <li id="ProductManagementId" runat="server" visible="false" class="dropdown-wrapper">
+                    <div class="dropdown-list">Product Management</div>
+                    <div class="dropdown-content">
+                        <a href="AddBook.aspx">Add Book</a>
+                        <a href="EditBook.aspx">Edit Book</a>
+                        <a href="RemoveBook.aspx">Remove Book</a>
+                        <a href="MostBought.aspx">Most Bought</a>
+                    </div>
+                </li>
+                <li id="UserManagemnentId" runat="server" visible="false" class="dropdown-wrapper">
+                    <div class="dropdown-list">User Management</div>
+                    <div class="dropdown-content">
+                        <a href="Register.aspx">Add User</a>
+                    </div>
+                </li>
+                <li>
+                    <asp:LinkButton ID="lnkCart" runat="server" >
+                        🛒 (<asp:Label ID="lblCartCount" runat="server" Text="0"></asp:Label>)
+                    </asp:LinkButton>
+                </li>
+
+            </ul>
+        </nav>
+        <asp:ContentPlaceHolder ID="Header" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div>
+            <asp:ContentPlaceHolder ID="Sections" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <asp:ContentPlaceHolder ID="Footer" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 Book Nexus Book Shop. All rights reserved.</p>
+            </div>
+        </footer>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
