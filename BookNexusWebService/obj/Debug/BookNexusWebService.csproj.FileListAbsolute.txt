@@ -1,0 +1,7 @@
+C:\Users\ishes\source\repos\BookNexusWebService\bin\BookNexusWebService.dll.config
+C:\Users\ishes\source\repos\BookNexusWebService\bin\BookNexusWebService.dll
+C:\Users\ishes\source\repos\BookNexusWebService\bin\BookNexusWebService.pdb
+C:\Users\ishes\source\repos\BookNexusWebService\obj\Debug\BookNexusWebService.csproj.AssemblyReference.cache
+C:\Users\ishes\source\repos\BookNexusWebService\obj\Debug\BookNexusWebService.csproj.CoreCompileInputs.cache
+C:\Users\ishes\source\repos\BookNexusWebService\obj\Debug\BookNexusWebService.dll
+C:\Users\ishes\source\repos\BookNexusWebService\obj\Debug\BookNexusWebService.pdb
